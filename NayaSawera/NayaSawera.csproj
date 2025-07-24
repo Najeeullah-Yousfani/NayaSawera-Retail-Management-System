@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF674436-3AA3-45DA-80D4-2684B00E297D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NayaSawera</RootNamespace>
+    <AssemblyName>NayaSawera</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.1.3, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.3\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerCart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerCart.Designer.cs">
+      <DependentUpon>CustomerCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage Product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manage Product.Designer.cs">
+      <DependentUpon>Manage Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Records.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Records.Designer.cs">
+      <DependentUpon>Records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_maincontrol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_maincontrol.Designer.cs">
+      <DependentUpon>UC_maincontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ManageCustomers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ManageCustomers.Designer.cs">
+      <DependentUpon>UC_ManageCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ManageBrands.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ManageBrands.Designer.cs">
+      <DependentUpon>UC_ManageBrands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ManageCategories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ManageCategories.Designer.cs">
+      <DependentUpon>UC_ManageCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ManageSale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ManageSale.Designer.cs">
+      <DependentUpon>UC_ManageSale.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerCart.resx">
+      <DependentUpon>CustomerCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage Product.resx">
+      <DependentUpon>Manage Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Records.resx">
+      <DependentUpon>Records.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_maincontrol.resx">
+      <DependentUpon>UC_maincontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ManageBrands.resx">
+      <DependentUpon>UC_ManageBrands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ManageCategories.resx">
+      <DependentUpon>UC_ManageCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ManageCustomers.resx">
+      <DependentUpon>UC_ManageCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ManageSale.resx">
+      <DependentUpon>UC_ManageSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

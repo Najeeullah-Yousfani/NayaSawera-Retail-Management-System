@@ -1,0 +1,33 @@
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\obj\Debug\NayaSawera.Properties.Resources.resources
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\obj\Debug\NayaSawera.csproj.GenerateResource.Cache
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\bin\Debug\NayaSawera.exe.config
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\bin\Debug\NayaSawera.exe
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\bin\Debug\NayaSawera.pdb
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\bin\Debug\Guna.UI2.dll
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\obj\Debug\NayaSawera.exe
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\obj\Debug\NayaSawera.pdb
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\obj\Debug\NayaSawera.LoginForm.resources
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\obj\Debug\NayaSawera.Dashboard.resources
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\obj\Debug\NayaSawera.UC_maincontrol.resources
+C:\Users\Najeeullah\documents\visual studio 2017\Projects\NayaSawera\NayaSawera\obj\Debug\NayaSawera.csprojResolveAssemblyReference.cache
+C:\Users\hp\Documents\NayaSawera\NayaSawera\bin\Debug\NayaSawera.exe.config
+C:\Users\hp\Documents\NayaSawera\NayaSawera\bin\Debug\NayaSawera.exe
+C:\Users\hp\Documents\NayaSawera\NayaSawera\bin\Debug\NayaSawera.pdb
+C:\Users\hp\Documents\NayaSawera\NayaSawera\bin\Debug\Guna.UI2.dll
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.csprojAssemblyReference.cache
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.Dashboard.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.LoginForm.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.Properties.Resources.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.UC_maincontrol.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.csproj.GenerateResource.cache
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.csproj.CopyComplete
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.exe
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.pdb
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.UC_ManageSale.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.Manage_Product.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.UC_ManageCategories.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.UC_ManageBrands.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.Records.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.UC_ManageCustomers.resources
+C:\Users\hp\Documents\NayaSawera\NayaSawera\obj\Debug\NayaSawera.CustomerCart.resources

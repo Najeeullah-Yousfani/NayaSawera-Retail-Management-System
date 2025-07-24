@@ -1,0 +1,64 @@
+# Visual Studio .gitignore
+
+## Ignore Visual Studio temporary files, build results, and user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio cache files
+.vs/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NCrunch
+_nCrunch_*
+.*crunch*.local.xml
+
+# Backup & reports
+*.bak
+*.Backup
+*.Cache
+*.log
+*.tlog
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/ folder which should be checked in
+!**/[Pp]ackages/build/
+
+# Azure Stream Analytics local run output
+ASALocalRun/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+
+# Others
+*.dbmdl
+*.bak
+*.pdb
+*.tmp
+*.svclog
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
